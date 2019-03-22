@@ -1,0 +1,49 @@
+html{
+    font-family: 'Century Gothic';
+    font-size: 20px;
+    height: 100%;
+    color: rgb(201, 98, 98);
+    text-align: justify;
+    background-image: url('course.jpg');
+    background-attachment: fixed;
+    background-color: transparent;
+}
+.header{
+    color: rgba(194, 97, 142, 0.815);
+    text-shadow: 2px 2px 1px rgba(172, 51, 224, 0.411);
+}
+li{
+    list-style: none;
+}
+a{
+    color: rgb(255, 0, 64);
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+
+}
+a:hover{
+    font-weight: bold;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.85);
+    text-shadow: 2px 2px 0px rgba(255, 253, 253, 0.85);
+
+}
+#course{
+    color: rgb(132, 169, 238);
+    font-size: 50px;
+    text-shadow: 2px 2px 0px rgb(184, 176, 176);
+}
+img{
+    width: 20%;
+    height: 20%;
+    margin-bottom: 1%;
+}
+p{
+    background: rgba(0, 0, 0, 0.555); 
+    color: bisque;
+    border-radius: 5px;
+    padding: .5%;
+    margin-left: 22%;
+    margin-top: -27%;
+}
